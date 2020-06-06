@@ -1,4 +1,4 @@
-{ name = "purescript-clipboardy"
+{ name = "clipboardy"
 , license = "MIT"
 , dependencies = [ "aff", "aff-promise", "effect" ]
 , repository = "https://github.com/hrajchert/purescript-clipboardy"
