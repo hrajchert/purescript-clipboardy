@@ -1,3 +1,28 @@
+-- | This library provides bindings for [clipboardy](https://github.com/sindresorhus/clipboardy), which allows you to manage the clipboard in Mac, Windows and Linux machines using Node.
+-- | You can use the async version using `Aff`
+-- | ```purescript
+-- | main :: Effect Unit
+-- | main =
+-- |   launchAff_ do
+-- |     -- copy
+-- |     write "🦄"
+-- |     -- paste
+-- |     val <- read
+-- |     liftEffect $ log val
+-- | ```
+-- |
+-- | Or the sync version using `Effect`
+-- | ```purescript
+-- | main :: Effect Unit
+-- | main = do
+-- |   -- copy
+-- |   writeSync "🦄"
+-- |   -- paste
+-- |   val <- readSync
+-- |   log val
+-- | ```
+
+
 module Clipboardy
   ( read
   , write
