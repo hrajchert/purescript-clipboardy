@@ -1,6 +1,6 @@
 { name = "purescript-clipboardy"
 , license = "MIT"
-, dependencies = [ "aff", "aff-promise", "console", "effect", "psci-support" ]
+, dependencies = [ "aff", "aff-promise", "effect" ]
 , packages = ./packages.dhall
-, sources = [ "src/**/*.purs", "test/**/*.purs", "examples/**/*.purs" ]
+, sources = [ "src/**/*.purs" ]
 }

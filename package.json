@@ -1,0 +1,17 @@
+{
+  "name": "purescript-clipboardy",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Purescript bindings to Node clipboardy library",
+  "repository": "https://github.com/hrajchert/purescript-clipboardy",
+  "author": "Hernan Rajchert <hrajchert@gmail.com.com>",
+  "license": "MIT",
+  "scripts": {
+    "clean": "rm -rf .spago output node_modules",
+    "build": "spago build",
+    "build:examples": "spago -x examples/examples.dhall build"
+  },
+  "devDependencies": {
+    "clipboardy": "^2.3.0"
+  }
+}
