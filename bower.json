@@ -1,0 +1,21 @@
+{
+    "name": "purescript-purescript-clipboardy",
+    "license": [
+        "MIT"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/hrajchert/purescript-clipboardy"
+    },
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "output"
+    ],
+    "dependencies": {
+        "purescript-aff": "^v5.1.2",
+        "purescript-aff-promise": "^v2.1.0",
+        "purescript-effect": "^v2.0.1"
+    }
+}
