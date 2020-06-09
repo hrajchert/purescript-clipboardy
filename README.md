@@ -7,9 +7,11 @@ This library provides bindings for [clipboardy](https://github.com/sindresorhus/
 Install this library to your project
 
 ```bash
-# TODO: still need to add to the purescript-registry and the purescript-package-sets
 $ spago install purescript-clipboardy
 $ npm i clipboardy
 ```
 
-See the [examples folder](./examples) for how to use this, or the Pursuit documentation (TODO).
+See the [examples folder](./examples) for how to use the library.
+
+## API Docs
+API documentation is [published on Pursuit](https://pursuit.purescript.org/packages/purescript-clipboardy).
