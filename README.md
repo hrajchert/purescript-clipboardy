@@ -7,7 +7,7 @@ This library provides bindings for [clipboardy](https://github.com/sindresorhus/
 Install this library to your project
 
 ```bash
-$ spago install purescript-clipboardy
+$ spago install clipboardy
 $ npm i clipboardy
 ```
 
